@@ -1,0 +1,7 @@
+.m-content-row {
+    margin-top: 20px;
+}
+
+.m-train-list {
+    background: #fff;
+}

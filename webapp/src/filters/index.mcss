@@ -1,0 +1,9 @@
+.ant-advanced-search-form {
+    .ant-form-item-children {
+        width: 100%;
+        display: inline-block;
+        .ant-calendar-picker {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+.m-welcome-wraper {
+    width: 100%;
+    height: 100%;
+    .ant-input-group-wrapper {
+        background: #fff;
+        border-radius: 4px;
+        .ant-input-group-addon {
+            background: #fff;
+            border-color: #fff;
+        }
+        .ant-input {
+            border-color: #fff;
+        }
+    }
+    .m-login-item {
+        width: 300px;
+        margin: auto;
+    }
+    .m-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        .u-name {
+            font-size: 100px;
+            margin-bottom: 0;
+        }
+        .m-btn {
+            width: 300px;
+            font-size: 14px;
+            border: 2px solid #fff;
+            border-radius: 2px;
+            cursor: pointer;
+            margin: auto;
+            margin-top: 12px;
+            transition: all ease-in-out 0.2s;
+            &:hover {
+                color: #20cbcb;
+                background: #fff;
+            }
+        }
+    }
+    .m-captcha-image {
+        width: 300px;
+        margin: auto;
+        .m-image-wraper {
+            position: relative;
+            width: 100%;
+            img {
+                width: 100%;
+            }
+            .m-click-wraper {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                .u-click {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 28px;
+                    height: 28px;
+                    margin-top: -10px;
+                    color: #ff4d4f;
+                }
+            }
+        }
+    }
+    .m-user-info {
+        .m-btn-group {
+            margin-top: 80px;
+        }
+        .u-btn {
+            margin-right: 10px;
+        }
+    }
+}
